@@ -22,3 +22,8 @@ distributions for every parameter, ensuring trust and transparency.
 
 ## 🛠️ Tools Used
 `Python` `PyMC` `ArviZ` `Pandas` `NumPy`
+
+## 📊 Model Diagnostics & Visualizations
+![Trace Plots and Posterior Distributions](trace_plots.png)
+*Figure 1: Posterior distributions (left) and MCMC trace plots (right) for the global intercept ($\mu_\alpha$), county-specific offsets ($\alpha$), and the slope for square footage ($\beta$). The overlapping densities and "fuzzy caterpillar" trace plots indicate strong model convergence and effective sampling across all parameters.*
+
